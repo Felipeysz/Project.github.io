@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Desktop*/
+body {
+  background: linear-gradient(135deg, lightblue, lightgreen);
+}
+h1 {
+  font-size: 3.75rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.polaroid img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.polaroid {
+  background: rgb(255, 255, 255);
+  padding: 15px, 15px, 40px, 15px;
+  box-shadow: 1px, 1px, 2px rgba(0, 0, 0, 0, 211);
+  border-radius: 5px;
+}
+.container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 40px;
+  padding: 5px;
+}
+.polaroid h2 {
+  margin-bottom: 7px;
+}
+
+/* Notebook */
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 40px;
+    padding: 10px;
+  }
+}
+
+/* Teblet */
+@media (max-width: 1024px) and (min-width: 700px) {
+  .container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 40px;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 3.125rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+  }
+}
+
+/* Celular */
+@media (max-width: 700px) and (min-width: 320px) {
+  .container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin: 40px;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 1.875rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+  }
+}
+/* Smart-Watch */
+@media (max-width: 320px) {
+  .container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin: 2px;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+  }
+}
