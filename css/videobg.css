@@ -43,7 +43,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   font-size: 18px;
-  background: rgba(89, 0, 255, 0.873);
+  background: orange;
   border: none;
   outline: none;
   cursor: pointer;
@@ -52,8 +52,13 @@ body {
   transition: 0.5s;
 }
 .rodape button:hover {
-  background: rgb(0, 0, 0);
-  color: rgb(89, 0, 255);
+  background: black;
+  color: orange;
+}
+.rodape p span {
+  color: orange;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Notebook */
