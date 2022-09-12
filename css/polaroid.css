@@ -3,16 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: MagicRetro;
+  src: url(/arquivos/Magic\ Retro.ttf);
+}
+@font-face {
+  font-family: Onepiece;
+  src: url(/arquivos/Onepiece.ttf);
+}
+
 /*Desktop*/
 body {
   background: linear-gradient(135deg, lightblue, lightgreen);
 }
 h1 {
   font-size: 3.75rem;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Onepiece, Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
   text-align: center;
 }
 
+h2 {
+  font-family: MagicRetro;
+}
 .polaroid img {
   width: 100%;
   height: 300px;
@@ -47,6 +60,9 @@ h1 {
     margin: 40px;
     padding: 10px;
   }
+  h2 {
+    font-family: MagicRetro;
+  }
 }
 
 /* Teblet */
@@ -63,6 +79,9 @@ h1 {
     font-size: 3.125rem;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     text-align: center;
+  }
+  h2 {
+    font-family: MagicRetro;
   }
 }
 
@@ -81,6 +100,9 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     text-align: center;
   }
+  h2 {
+    font-family: MagicRetro;
+  }
 }
 /* Smart-Watch */
 @media (max-width: 320px) {
@@ -96,5 +118,8 @@ h1 {
     font-size: 22px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     text-align: center;
+  }
+  h2 {
+    font-family: MagicRetro;
   }
 }
