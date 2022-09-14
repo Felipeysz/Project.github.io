@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-h1 {
-  text-align: center;
-  font-weight: 600;
-}
-
 img {
   width: 100%;
   height: 60vh;
@@ -100,4 +95,11 @@ textarea:focus {
   resize: none;
   width: 200px;
   height: 150px;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
