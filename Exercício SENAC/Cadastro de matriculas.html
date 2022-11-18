@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/Cadastro de matriculas.css">
+  <title>Cadastro de Matricula</title>
+</head>
+
+<body>
+
+
+  <h1>Cadastro de Matriculas</h1>
+
+
+
+
+  <div class="box">
+    <form action="" method="POST">
+
+
+      <!-- Nome Completo -->
+      <label for="nome">Nome:</label>
+      <br>
+      <input type="text" name="nome" id="nome" required>
+      <br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <br>
+      <input type="email" name="email" id="email" required>
+      <br><br>
+
+      <!-- Telefone -->
+      <label for="telefone">Telefone:</label>
+      <br>
+      <input type="tel" name="telefone" id="telefone" required>
+      <br><br>
+
+      <!-- Genêro -->
+      <span>Genêro:</span>
+      <br>
+      <input type="radio" name="genero" id="m" value="m" required>
+      <label for="m">M</label>
+      <input type="radio" name="genero" id="f" value="f">
+      <label for="f">F</label>
+      <input type="radio" name="genero" id="outros" value="outros">
+      <label for="outros">Outros</label>
+      <br><br>
+
+
+
+      <!-- Grau de Instrução -->
+      <span>Grau de Instrução:</span>
+      <br>
+      <input type="radio" name="ensino" id="fundamental" value="fundamental" required>
+      <label for="fundamental">Ensino Fundamental</label>
+
+      <input type="radio" name="ensino" id="medio" value="medio">
+      <label for="medio">Ensino Médio</label>
+
+      <input type="radio" name="ensino" id="superior" value="superior">
+      <label for="superior">Ensino Superior</label>
+      <br><br>
+
+
+
+      <label for="estados">Estados:</label>
+      <br>
+      <select name="estados" id="estados" required>
+        <option value="">Escolha o seu estado</option>
+        <option value="ap">AP</option>
+        <option value="ba">BA</option>
+        <option value="ce">CE</option>
+        <option value="pe">PE</option>
+        <option value="sp">SP</option>
+        <option value="rj">RJ</option>
+      </select>
+      <br><br>
+
+      <span>Grau de Instrução:</span>
+      <br>
+      <input type="radio" name="cursos" id="php" value="php" required>
+      <label for="php">PhP</label>
+
+      <input type="radio" name="cursos" id="fullstack" value="fullstack">
+      <label for="fullstack">Full Stack</label>
+
+      <input type="radio" name="cursos" id="design" value="design">
+      <label for="design">Design</label>
+
+      <input type="radio" name="cursos" id="video" value="video">
+      <label for="video">Video</label>
+      <br><br>
+
+
+      <input type="date" name="nascimento" id="data" value="data">
+      <label for="data">Data de Nascimento</label>
+      <br><br><br>
+
+      <input type="submit" value="Enviar" name="submit">
+
+      <input type="hidden" name="_next" value="link da proxima pagina">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+
+
+
+    </form>
+    <div>
+      <img src="arquivos/task-animate.svg" alt="">
+    </div>
+  </div>
+
+
+  <div class="bolinha">
+
+    <a href="https://twitter.com/login?lang=pt">
+      <img src="imagens/icones redes sociais/twitter.png" alt="">
+    </a>
+
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjhvsGPyJf6AhVK5lwKHZCKB3IYABAAGgJjZQ&ohost=www.google.com&cid=CAESa-D2ALXKvrjCS_ullgvQnzZjlBBCxvLUvM9cS54VYluwRc-FylJalIUioDk9HK0NWbKxDXLBeHeJGZfFif5x3E_JBY2USpOmVdR4AvxYwS2xAze018ud1OG71TJo6QTM8tybbSoMZhEicztK&sig=AOD64_1NvNuQ8p5kg1491T55LIJhP983sQ&q&adurl&ved=2ahUKEwjq0bqPyJf6AhUMp5UCHW4vAnwQ0Qx6BAgEEAE">
+      <img src="imagens/icones redes sociais/facebook.png" alt="">
+    </a>
+
+
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi688rvx5f6AhX14FwKHfddDN4YABAAGgJjZQ&ohost=www.google.com&cid=CAESa-D289Chw72xXNV02nFjC-NfEsMdRJy4tY2BhTzdnWLXlIj8-Si2Arie73yTqZnXWwhqNXnl5s9kbUKJ9cYzAuAmg0RN3_Qw66yWDPXpaFo46aE0pnJxal_TYyLogZvOlESvBmu1WH9fBixJ&sig=AOD64_3omPD8w3_MhRp8q4dD7J3ozTLobg&q&adurl&ved=2ahUKEwilkMTvx5f6AhVAjZUCHXFeCooQ0Qx6BAgEEAE">
+      <img src="imagens/icones redes sociais/github.png" alt="">
+    </a>
+
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjVgqeWyJf6AhUSMpEKHQ-KCuYYABAAGgJjZQ&ohost=www.google.com&cid=CAESa-D2VItEgIhs-KdsMrmy7DpgsMd43NJ4H0ERVSDufF9K3rlSgxSyLZOXIL20S46Iyt6wa7I_Iw5tP8CZhjUmlRyRIewLqcBDX8CrKImS8ct19y9SBOy3mDKGr6FxW9CVOEWHXyOEEqr53a3e&sig=AOD64_3Mb_nNZ1JWohYAV_rIcpnAyUXITA&q&adurl&ved=2ahUKEwjNqaCWyJf6AhWes5UCHUVZCmoQ0Qx6BAgEEAE">
+      <img src="imagens/icones redes sociais/instagram.png" alt="">
+    </a>
+
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiq8v2cyJf6AhXmFdQBHQIpCdIYABAAGgJvYQ&ohost=www.google.com&cid=CAESa-D2EyuzQLJuRquh6D3D6k4W_G3uLauGftP11VJFZtuz02atpdKIf7nO-J4h2U4Cnm6mwnVfDXPeHfeU8lcfbq_lYCZ-TcCKvuWNQJZcTT8Qn_jxXoSv3zgvqRH9WABRSn39AXX7jDu-Ybxn&sig=AOD64_03YpZEqGv8idVr-ndFd1EP3OACrA&q&adurl&ved=2ahUKEwiLw_GcyJf6AhWGpJUCHRbqCy8Q0Qx6BAgEEAE">
+      <img src="imagens/icones redes sociais/linkedin.png" alt="">
+    </a>
+
+    <a href="https://www.youtube.com/?gl=BR&hl=pt">
+      <img src="imagens/icones redes sociais/youtube.png" alt="">
+    </a>
+
+  </div>
+
+</body>
+
+</html>

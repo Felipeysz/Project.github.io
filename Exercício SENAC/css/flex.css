@@ -1,0 +1,19 @@
+.videozinho {
+  max-width: 100%;
+  display: block;
+}
+
+.pai {
+  width: 70%;
+  margin: auto;
+}
+
+.controles button {
+  background: lightskyblue;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  margin: 5px 10px;
+}

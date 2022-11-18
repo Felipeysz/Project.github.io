@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/form.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+
+
+
+  <div class="box">
+    <form action="https://formsubmit.co/Felipesantana87146520@gmail.com" method="POST">
+
+
+      <!-- Nome -->
+      <!-- for e id :devem ter o mesmo nome (Usado para comunicarem entre eles) !!!!!! -->
+      <!-- (name (Indentificação)):deve ter o nome em minusculo sem espaço e sem caracteris -->
+      <!-- Required deixa a resposta Obrigatoria -->
+      <!-- Colocar Required nos input -->
+      <label for="nome">Nome:</label>
+      <br>
+      <input type="text" name="nome" id="nome" required>
+      <!-- Br=Espaçamento -->
+      <br><br>
+
+      <!-- Email -->
+      <!-- for e id :devem ter o mesmo nome (Usado para comunicarem entre eles) !!!!!! -->
+      <!-- (name (Indentificação)):deve ter o nome em minusculo sem espaço e sem caracteris -->
+      <!-- Required deixa a resposta Obrigatoria -->
+      <!-- Colocar Required nos input -->
+      <label for="email">Email:</label>
+      <br>
+      <input type="email" name="email" id="email" required>
+      <!-- Br=Espaçamento -->
+      <br><br>
+
+      <!-- Telefone -->
+      <!-- for e id :devem ter o mesmo nome (Usado para comunicarem entre eles) !!!!!! -->
+      <!-- (name (Indentificação)):deve ter o nome em minusculo sem espaço e sem caracteris -->
+      <!-- Required deixa a resposta Obrigatoria -->
+      <!-- Colocar Required nos input -->
+      <label for="telefone">Telefone:</label>
+      <br>
+      <input type="tel" name="telefone" id="telefone" required>
+      <!-- Br=Espaçamento -->
+      <br><br>
+
+
+      <!-- Configuração de Genêro -->
+      <!-- for e id :devem ter o mesmo nome (Usado para comunicarem entre eles) !!!!!! -->
+      <!-- (name (Indentificação)):deve ter o nome em minusculo sem espaço e sem caracteris -->
+      <!-- adicionar (value= (m,f,outros)) -->
+      <!-- Necessita-se colocar REQUIRED somente em 1 das questões -->
+
+      <span>Genêro:</span>
+      <br>
+      <!-- Masculino -->
+      <input type="radio" name="genero" id="m" value="m" required>
+      <label for="m">M</label>
+      <!-- Feminino -->
+      <input type="radio" name="genero" id="f" value="f">
+      <label for="f">F</label>
+      <!-- Outros -->
+      <input type="radio" name="genero" id="outros" value="outros">
+      <label for="outros">Outros</label>
+      <!-- Br=Espaçamento -->
+      <br><br>
+
+      <!-- Seleção de estado -->
+      <!-- Required Deixa A resposta Obrigatoria -->
+      <!-- colocar required no select -->
+
+      <label for="estados">Estados:</label>
+      <br>
+      <select name="estados" id="estados" required>
+        <option value="">Escolha o seu estado</option>
+        <option value="ap">AP</option>
+        <option value="ba">BA</option>
+        <option value="ce">CE</option>
+        <option value="pe">PE</option>
+        <option value="sp">SP</option>
+      </select>
+      <br><br>
+
+
+      <!-- Caixa de Texto para Observações ou Fale Conosco -->
+      <!-- Deixar tamanho Fixo no CSS -->
+      <!-- Cols e Rows Deve ser removido -->
+
+      <label for="obs">Observações:</label><br>
+      <textarea name="obs" id="obs" required></textarea>
+      <br><br>
+
+      <!-- Botão de Enviar -->
+      <!-- adicionar value com o nome do botão-->
+      <!-- adicionar name usado para ajudar o (php) (submit)-->
+      <input type="submit" value="Enviar" name="submit">
+
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+
+    </form>
+    <div>
+      <img src="imagens/inbox-cleanup-animate (1).svg" alt="">
+    </div>
+  </div>
+
+
+</body>
+
+</html>
