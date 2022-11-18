@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Lusitana&family=Nunito:wght@300;400&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  border: 0;
+  font-family: "Nunito", sans-serif;
+  color: #ce6b6b;
+}
+/* Estilo do Topo */
+.cabecalho {
+  background: #ce6b6b;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 150px;
+  font-weight: 600;
+}
+h2 {
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+a {
+  color: #fff;
+  font-family: "Lusitana", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 30px;
+}
+.login {
+  background: #ce6b6b;
+  font-weight: 550;
+  font-size: 25px;
+  padding: 3px 8px;
+  border-radius: 14px;
+  border: 3px solid white;
+  color: white;
+}
+.titulo1 {
+  position: absolute;
+  width: 424px;
+  height: 266px;
+  left: 845px;
+  top: 365px;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px;
+  color: white;
+}
+/* Estilo do Body */
+
+.containner {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* margin: 200px; */
+  padding: 50px;
+  gap: 10px;
+  text-align: center;
+}
+.box {
+  background: rgba(200, 200, 200, 0.3);
+  border-radius: 20px;
+  padding: 100px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 80px;
+  text-decoration: underline;
+}
+.sejadoador {
+  font-weight: 700;
+  font-size: 60px;
+  color: #ce6b6b;
+}
+.coracao {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+main {
+  font-size: 100%;
+  background: white;
+}
+
+.button {
+  color: #fff;
+  background: #ce6b6b;
+  font-size: 48px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 3px 8px 3px 15px;
+  border-radius: 14px;
+  border: 3px solid #ce6b6b;
+  border: none;
+  width: 315px;
+  height: 80px;
+}
+
+p {
+  font-family: "Lusitana";
+  font-size: 40px;
+}
+ul {
+  list-style-type: armenian;
+  font-family: "Lusitana";
+  font-size: 40px;
+  padding: 5px 15px;
+}
+
+/* Pseudo Classes */
+.login:hover {
+  background: white;
+  color: #ce6b6b;
+}
+.button:hover {
+  background: white;
+  color: #ce6b6b;
+  border: 3px solid #ce6b6b;
+}

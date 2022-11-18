@@ -1,0 +1,26 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+/* #titulo {
+  text-align: center;
+} */
+body {
+  background: linear-gradient(130deg, orange, black);
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+.box {
+  justify-items: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 30px;
+}
