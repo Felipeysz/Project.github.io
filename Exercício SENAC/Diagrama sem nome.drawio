@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T23:17:59.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 OPR/89.0.4447.64" etag="BLWSNEJkDqf02T519Oer" version="20.6.0" type="github" pages="3">
-  <diagram id="qBJyMc_533hRYf0EZjbL" name="Página-1">
+<mxfile host="app.diagrams.net" modified="2022-11-29T23:21:40.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 OPR/89.0.4447.64" etag="ecXCy_hyl3oJAtpINjN5" version="20.6.0" type="github" pages="4">
+  <diagram id="qBJyMc_533hRYf0EZjbL" name="EXERCICIO1/BDD/AULA1">
     <mxGraphModel dx="3589" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -159,7 +159,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Hw2BJh1s3JnL3n-YHACc" name="Página-2">
+  <diagram id="Hw2BJh1s3JnL3n-YHACc" name="EXERCICIO2/BDD/AULA1">
     <mxGraphModel dx="1381" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -308,7 +308,15 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="hLuinvUiny6BOhWS3INh" name="Página-3">
+  <diagram id="24IRDp8N5oaeyhUHbXX2" name="EXERCICIO3/BDD/AULA1">
+    <mxGraphModel dx="1381" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hLuinvUiny6BOhWS3INh" name="EXERCICIO1/BDD/AULA2">
     <mxGraphModel dx="1381" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
