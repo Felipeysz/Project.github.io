@@ -1,0 +1,11 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0;
+  }
+
+.buttons {
+  padding: 40px 150px;
+  background-color: rgb(8, 173, 173);
+}
