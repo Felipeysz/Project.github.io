@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+.topo {
+  height: 8vh;
+  background-color: rgb(83, 135, 135);
+  width: 100%;
+}
+nav {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+}
+section {
+  min-height: 90vh;
+  width: 100%;
+  background-color: rgb(83, 135, 135);
+}
+
+a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.384);
+  text-align: center;
+  justify-content: center;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a::selection{
+  color: rgb(78, 78, 78);
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sair {
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: rgb(35, 192, 48);
+  text-align: center;
+  width: 70px;
+  height: 33px;
+  font-size: 20px;
+  color: white;
+  
+}
+.sair:hover{
+  background-color: rgb(195, 62, 62);
+}
+
+.cad {
+  
+  color: white;
+}
+
+.form {
+  position: relative;
+  width: 500px;
+  height: 550px;
+  background-color:rgb(47, 91, 76) ;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 3px solid black;
+  color: white;
+}
+
+.form h2 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid white;
+}
+
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.7s;
+  font-weight: 500;
+}
+
+
+input:focus ~ label,
+input:valid ~ label{
+    top: 13px;
+}
+
+input:active ~ label {
+top: 15px;
+}
+
+.inputbox input  {
+    width: 40%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    padding:0 30px 0 5px;
+    color: rgb(255, 255, 255);
+}
+
+.cadastro {
+  width: 80%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.15em;
+  font-weight: 600;
+  transition: 0.5s;
+  margin-bottom: 7px;
+}
+
+.inputbox::placeholder {
+  color: white;
+
+}
+.cadastro:hover{
+  border: 2px solid black;
+  background-color: darkslategray;
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 92vh;
+  width: 100%;
+}
+.form-input {
+  text-align: center;
+  justify-content: center;
+}
