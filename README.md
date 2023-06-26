@@ -1,8 +1,8 @@
 ## Olá! Eu Meu Nome é  Luis Felipe.
 
-- 👨‍🎓 Estudando Banco de Dados.
-- 💻 A Procura de Um Trabalho.
-- 📈 A Procura de Uma Constante Evolução.
+- 👨‍🎓 Estudando Python.
+- 💻 A Procura de Um Trabalho (Portugal).
+- 📈 Em Constante Evolução.
 
 <div align="center">
   <a href="https://github.com/Felipeysz">
