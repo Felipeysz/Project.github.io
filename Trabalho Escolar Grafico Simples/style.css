@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(83, 83, 83);
+}
+
+.grf {
+    margin-top: 80px;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.grf2 {
+    margin-top: 80px;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
