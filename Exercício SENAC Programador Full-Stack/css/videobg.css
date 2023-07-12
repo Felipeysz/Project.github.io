@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+#videobg {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  z-index: -1;
+}
+.rodape {
+  width: 100%;
+  background: rgba(31, 31, 31, 0.7);
+  bottom: 0;
+  position: fixed;
+  padding: 20px;
+  text-align: center;
+}
+.rodape h1 {
+  color: #ccc;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rodape p {
+  color: #ccc;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 20px;
+  margin: 10px auto;
+}
+.rodape button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  background: orange;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto 2px auto;
+  transition: 0.5s;
+}
+.rodape button:hover {
+  background: black;
+  color: orange;
+}
+
+.rodape p span {
+  color: orange;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Notebook */
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .rodape {
+    max-width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+  }
+  .rodape p {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 10px auto;
+  }
+  .rodape h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  .rodape button:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .rodape button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.873);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto 2px auto;
+    transition: 0.5s;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1204px) and (min-width: 700px) {
+  .rodape {
+    max-width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+  }
+  .rodape p {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 10px auto;
+  }
+  .rodape h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  .rodape button:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .rodape button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.873);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto 2px auto;
+    transition: 0.5s;
+  }
+}
+
+/* Celular */
+@media (max-width: 700px) and (min-width: 320px) {
+  .rodape {
+    max-width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+  }
+  .rodape p {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 10px auto;
+  }
+  .rodape h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  .rodape button:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .rodape button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.873);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto 2px auto;
+    transition: 0.5s;
+  }
+}

@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(rgb(255, 196, 0), orange, black);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 70px;
+  color: black;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 46.9px 0px;
+}
+hr {
+  height: 10px;
+  background: rgb(0, 0, 0);
+  margin: 8px 471.75px;
+  border: none;
+}
+.batata1 {
+  margin: 20px 441.75px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: black;
+  width: 50%;
+}
+.batata2 {
+  margin: 20px 441.75px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: black;
+  width: 50%;
+}
+
+h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  margin: 0;
+}
+.p1 {
+  color: #b2b2b2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.p2 {
+  color: #b2b2b2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+.preco {
+  color: #febe01;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 700;
+}
+.numero {
+  color: #febe01;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  margin: 0;
+}
+.numero2 {
+  color: #febe01;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.preco2 {
+  color: #febe01;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+a {
+  background: #febe01;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+a:hover {
+  background: black;
+  color: #febe01;
+  border: 1px solid #febe01;
+}
