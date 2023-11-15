@@ -1,6 +1,6 @@
 ## Olá! Eu Meu Nome é  Luis Felipe.
 
-- 👨‍🎓 Estudando Python.
+- 👨‍🎓 Estudando DotNet.
 - 💻 A Procura de Uma Oportunidade.
 - 📈 Em Constante Evolução.
 
