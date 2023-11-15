@@ -1,7 +1,7 @@
 ## Olá! Eu Meu Nome é  Luis Felipe.
 
 - 👨‍🎓 Estudando Python.
-- 💻 A Procura de Um Trabalho (Portugal).
+- 💻 A Procura de Uma Oportunidade.
 - 📈 Em Constante Evolução.
 
 <div align="center">
